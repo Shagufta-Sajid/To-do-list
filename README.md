@@ -16,9 +16,9 @@ Run the application:
     - php artisan key:generate
 4. Create (database.sqlite) file in the database folder
 5. Setup database in env file
-         DB_CONNECTION=sqlite
-         DB_DATABASE=/absolute/path/to/database.sqlite
-6. Write in terminal:
+    DB_CONNECTION=sqlite
+    DB_DATABASE=/absolute/path/to/database.sqlite
+7. Write in terminal:
    - php artisan migrate
    - php artisan serve
-7. Go to http://127.0.0.1:8000/tasks
+8. Go to http://127.0.0.1:8000/tasks
